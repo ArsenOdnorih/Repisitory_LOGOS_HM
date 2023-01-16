@@ -1,0 +1,318 @@
+body {
+    border: rgb(0, 0, 0) 1px solid;
+   
+}
+
+.heder {
+    width: auto;
+    height: 140px;
+    background-color: #FAEBD7;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 32px;  
+    transition: 5s;
+}
+.heder :hover {
+    transition: 2s;
+   transform: translate(50px, 30px) rotate(500deg) scale(0.8)  skew(40deg); 
+} 
+
+    .heder_1 {
+        width: 530px;
+        height: 70px;
+        background-color: #D2B48C; 
+        margin: auto;  
+        box-sizing: border-box; 
+        padding: 20px;
+    }
+
+    .heder_2 {
+        width: 210px;
+        height: 30px;
+        background-color: #FFFFF0;
+        margin: auto;
+        box-sizing: border-box; 
+        padding: 5px;
+        text-align: center;
+    }
+
+
+.menu {
+    width: auto;
+    height: 100px;
+    text-align: center;
+    
+}
+.menu :hover {
+    transition: 3s;
+    transform: translate(300px) rotate(1440deg) scale(4); 
+} 
+    .menu_1 {
+        width: 20%;
+        height: 100px;
+        background: #5F9EA0;
+        float: left;
+    }
+    .menu_2 {
+        width: 20%;
+        height: 100px;
+        background: #6495ED;
+        float: left;
+    }
+    .menu_3 {
+        width: 20%;
+        height: 100px;
+        background: #F5DEB3;
+        float: left;
+    }
+    .menu_4 {
+        width: 20%;
+        height: 100px;
+        background: #F08080;
+        float: left;
+    }
+    .menu_5 {
+        width: 20%;
+        height: 100px;
+        background: #4B0082;
+        float: left;
+    }
+
+.container {
+        height: 300px;
+        width: auto;
+}
+    .container_left {
+        width: 33%;
+        height: 300px;
+        background: #008000;
+        box-sizing: border-box; 
+        padding: 20px;
+        float: left;
+    }
+
+    .container_left_text {
+        width: 130px;
+        height: 65px;
+        background: #C0C0C0;
+        margin: auto;
+        box-sizing: border-box; 
+        padding: 20px;
+        text-align: center;
+    }
+    .container_left_3 {
+        width: 100px;
+        height: 65px;
+        background: #8B0000;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+
+    .container_left_4_5 {
+        width: 100px;
+        height: 130px;
+        margin: 0 auto;
+    }
+        .container_left_4 {
+            width: 50%;
+            height: 130px;
+            background: #FA8072;
+            float: left;
+            text-align: center;
+
+        }
+        .container_left_5 {
+            height: 130px;
+            background: #BDB76B;  
+            text-align: center;
+        }
+
+.container_center {
+        width: 33%;
+        height: 300px;
+        box-sizing: border-box; 
+        overflow: hidden;
+        float: left;
+    }
+
+    .container_center_A {
+        width: auto;
+        height: 35px;
+        background: #008080;
+        text-align: center;
+        
+
+    }
+
+    .container_center_B {
+        width: 33%;
+        height: 160px;
+        background: #66CDAA;
+        box-sizing: border-box;
+        float: left;
+           
+    }
+
+        .container_center_B1 {
+            width: 50%;
+            height: 265px;
+            background: #A52A2A;   
+            float: left;
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .container_center_B2 {
+            height: 265px;
+            background: #ADFF2F;  
+            margin-top: 70px;
+            text-align: center;
+        }
+
+    .container_center_C {
+        width: 33%;
+        height: 265px;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+    }
+
+        .container_center_C1 {
+            width: auto;
+            height: 25%;
+            background: #ADD8E6;   
+        }
+        .container_center_C2 {
+            width: auto;
+            height: 25%;
+            background: #00008B;   
+        }
+        .container_center_C3 {
+            width: auto;
+            height: 25%;
+            background: #8B008B;   
+        }
+        .container_center_C4 {
+            width: 50%;
+            height: 25%;
+            background: #FDF5E6;  
+            float: left; 
+        }
+        .container_center_C5 {
+            height: 25%;
+            background: #FA8072;   
+    }
+    .container_center_D {
+        
+        height: 265px;
+        text-align: center;
+    }
+        .container_center_D1{
+            width: auto;
+            height: 25%;
+            background: #40E0D0; 
+        }
+        .container_center_D2{
+            width: auto;
+            height: 25%;
+            background: #008080; 
+        }
+        .container_center_D3{
+            width: auto;
+            height: 50%;
+            background: #FFDEAD; 
+    }
+    .container_center_rithe {
+        width: 34%;
+        height: 300px;
+        box-sizing: border-box;
+        text-align: center;
+        float: right;
+        overflow: hidden;
+       
+    }
+        .tor_1 {
+            width: 33%;
+            height: 35px;
+            background: #8FBC8F;
+            float: left; 
+        }
+        .tor_2 {
+            width: 33%;
+            height: 35px;
+            background: #DA70D6;
+            float: left; 
+        }
+        .tor_3 {
+            height: 35px;
+            background: #FF7F50;
+        }
+        .box_white {
+            height: 48px;
+            width: auto;
+            background: #FAF0E6;
+            box-sizing: border-box;
+            padding: 11px;
+        }
+
+            .box_red {
+                height: 25px;
+                width: 90px;
+                background: #FF0000;
+                box-sizing: border-box;
+                margin: auto;
+                transform: rotate(180deg);
+                
+            }
+                .box_black {
+                    height: 6px;
+                    width: 18px;
+                    background: #000000;
+                    margin: auto;  
+                }
+        .tor_6 {
+            height: 50px;
+            width: auto;
+            background: #DCDCDC;
+        }
+        .tor_7 {
+            height: 168px;
+            width: 35%;
+            background: #2F4F4F;
+            float: left;
+        }
+        .tor_8 {
+            height: 55px;
+            width: 65%;
+            background: #708090;
+            float: right;
+            
+        }
+        .tor_9 {
+            height: 55px;
+            width: 32.5%;
+            background: #8A2BE2;
+            float: left;
+        }
+        .tor_10 {
+            height: 55px;
+            width: 32.5%;
+            background: #FAFAD2;
+            float: right;
+        }
+        .tor_11 {
+            height: 60px;
+            width: 65%;
+            background: #708090;
+            float: right;
+        }
+.bottom {
+    height: 90px;
+    width: auto;
+    background: #696969;
+    text-align: center;
+}
+        
+
+        
+
