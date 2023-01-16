@@ -1,0 +1,157 @@
+@font-face {
+    font-family:bahij-sultannahia;
+    src: url(./fonts/bahij-sultannahia.ttf);
+}
+
+@font-face {
+    font-family: ChronicaPro;
+    src: url(./fonts/ChronicaPro-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bahij-sultannahia;
+
+}
+
+.container {
+    background: #FEFEFE;
+    position: absolute;
+    border-radius: 30px;
+}
+/* Heder */
+.page{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    background: #FEFEFE;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 486px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 24px;
+}
+
+.menu_content{
+    text-decoration: none;
+    font-family: ChronicaPro;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    transition: 0.5s;
+    display: flex;
+}
+    .menu_content:hover{
+        color: #2785F7;
+}
+    .active{
+        color: #2785F7;
+    }
+
+/* Main */
+
+.content{
+    position: absolute;
+    top: 75px;
+    left: 23px;
+    right: 23px;
+    bottom: 44px;
+    background: #EAEBED;
+    border-radius: 30px;
+}
+
+    .smoll_text{
+        font-family: ChronicaPro;
+        color: #B1B1B1;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .smoll_text_team{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .big_text{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    /* Side */
+    .side{
+        background: #FEFEFE;
+        position: absolute;
+        top: 50%;
+        left: 23px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        transform: translate(0, -50%);
+        z-index: 2;
+    }
+    .side_img{
+        width: 67px;
+        height: 62px;
+        margin: 15px;
+        border-radius: 15px;
+        padding: 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .side_img:hover {
+        fill: #FEFEFE;
+    }
+    .side_img::after{
+        content: "";
+        position: absolute;
+        width: 85px;
+        height: 100%;
+        z-index: -1;
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        left: 0;
+        top: 0;
+        font-family: ChronicaPro;
+        font-size: 23px;
+        font-weight: 300;
+        color: #FEFEFE;
+        padding-left: 67px;
+        box-sizing: border-box;
+        transition: .5s;
+        opacity: 0;
+    }
+
+    .side_img:hover:after{
+        opacity: 1;
+        width: 160px;
+        background: #2785F7;
+    }
+    .img_progect::after{
+        content: "Project";
+    }
+    .img_account::after{
+        content: "Account";
+    }
+    .img_groups::after{
+        content: "Groups";
+    }
+    .img_cloud::after{
+        content: "Cloud";
+    }
+    .img_srtting::after{
+        content: "Srtting";
+    }
+.active_1{
+    background: #2785F7;
+}

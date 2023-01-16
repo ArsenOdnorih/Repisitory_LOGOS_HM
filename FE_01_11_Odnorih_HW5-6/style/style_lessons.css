@@ -1,0 +1,62 @@
+.display_lessns{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    margin-top: 138px;
+}
+.line_top{
+    width: 1194px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.line{
+    width: 1194px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.line:hover{
+    background: #FFFFFF;
+    border-radius: 21px;
+    cursor: pointer;
+}
+.line:hover .icone{
+    background-color: #2785F7;
+    color: #FFFFFF;
+}
+.table_size{
+    width: 138px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icone{
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 11px;
+    box-shadow: 1px 1px black;
+}
+
+.checkbox{
+display: none;
+}
+.fake{
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px black;
+}
+
+.checkbox:checked + .fake{
+    background-color: #2785F7;
+}

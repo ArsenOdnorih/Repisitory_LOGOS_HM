@@ -1,0 +1,62 @@
+
+/* Main */
+.main_content{
+    position: absolute;
+    top: 75px;
+    left: 23px;
+    right: 23px;
+    bottom: 44px;
+    background: #EAEBED;
+    border-radius: 30px;
+}
+/* Іконки */
+
+
+.container_name{
+    width: 592px;
+    height: 130px;
+    top: 80px;
+    left: 158px;
+    padding: 32px 42px;
+}
+ /*інфо-блоки */
+.company{
+    width: 583px;
+    height: 130px;
+    top: 80px;
+    left: 787px;
+    padding: 32px 42px;
+}
+
+.description{
+    width: 732px;
+    height: 194px;
+    top: 244px;
+    left: 158px;
+    padding: 34px 42px;
+}
+
+.team_lorem{
+    width: 732px;
+    height: 194px;
+    top: 460px;
+    left: 158px;
+    padding: 34px 42px;
+}
+
+.img_team{
+    width: 120px;
+    height: 138px;
+    float: left;
+}
+.data{
+    width: 447px;
+    height: 410px;
+    top: 244px;
+    left: 923px;
+    padding: 34px 42px;
+}
+.img_data{
+    width: 120px;
+    height: 115px;
+}

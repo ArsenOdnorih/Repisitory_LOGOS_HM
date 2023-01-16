@@ -1,0 +1,72 @@
+
+.display_team{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+.card:hover{
+    background-color: #2785F7;
+    color: wheat;
+}
+.card::after{
+    display: none;
+    content: url(./img_css/trash-alt\ 1.png);
+    width: 40px;
+    height: 40px;
+    padding: 18px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+.card:hover:after{
+    display: block;
+}
+.big_card{
+    width: 300px;
+    height: 325px;
+    margin-top: 56px;
+    position: relative;
+}
+
+.smoll_card{
+    width: 292px;
+    height: 278px;
+    margin-top: 35px;
+}
+
+.card_img1{
+    width: 100px;
+    height: 100px;
+    margin-top: 51px;
+    border-radius: 50%;
+
+}
+.text_name1{
+    margin-top: 11px;
+}
+.text_data1{
+    margin-top: 28px;
+}
+
+.card_img2{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+
+}
+.text_name2{
+    margin-top: 10px;
+}
+.text_data2{
+    margin-top: 39px;
+}

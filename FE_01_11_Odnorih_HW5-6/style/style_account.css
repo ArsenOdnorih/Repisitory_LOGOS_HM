@@ -1,0 +1,85 @@
+
+.container_account{
+    width: 615px;
+    height: 149px;
+    top: 20px;
+    left: 158px;
+}
+.container_flex{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.container_flex_input{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.ellipse{
+    width: 65px;
+    height: 65px;
+    font-size: 45px;
+    font-weight: 400;
+    border-radius: 50px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.elips_A{
+    background: #F24F5E;
+}
+.icne_text{
+    margin: 0 0 0 46px;
+}
+.text_email{
+    font-size: 18px;
+}
+.container_password{
+    width: 615px;
+    height: 517px;
+    top: 189px;
+    left: 158px;
+    padding: 27px 0 28px 0;
+}
+.elips_padlock{
+    background: #2785F7;
+}
+.input_password{
+    width: 524px;
+    height: 63px;
+    border: 2px solid #C0C0C0;
+    border-radius: 21px;
+    font-size: 20px;
+    padding: 0 0 0 20px;
+    color: #B1B1B1;
+}
+.input_password:focus{
+    outline: 2px solid #2785F7;
+}
+
+.container_company{
+    width: 588px;
+    height: 679px;
+    top: 20px;
+    left: 790px;
+    padding: 32px 0 22px 0;
+}
+.input_company_name{
+    width: 494px;
+}
+
+.input_address{
+    width: 494px;
+    height: 100px;
+}
+.smoll_input{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.input_mini{
+    width: 237px;
+}
