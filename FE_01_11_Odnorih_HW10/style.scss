@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #ff7f5c;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    height: 220px;
+    background: #50a9c7;
+    position: absolute;
+    top: 110px;
+    display: flex;
+}
+
+// BLOCK
+.block{
+    width: 90px;
+    height: 220px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 1px 0;
+}
+.block:hover{
+    width: 480px;
+}
+.block:hover .block_ligo::after{
+    width: 90px;
+    left: 0;
+}
+.block_ligo{
+    width: 90px;
+    height: 220px;
+    background: #64bddb;
+    position: relative;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_ligo:hover{
+    width: 0;
+}
+.block_ligo svg{
+    width: 35px;
+    height: 35px;
+    fill: white;
+}
+.block_ligo::after{
+    content: "";
+    width: 0px;
+    height: 220px;
+    position: absolute;
+    transition: .5s;
+    left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.block_text{
+    width: 390px;
+    height: 220px;
+    position: absolute;
+    left: 90px;
+    background: wheat;
+    padding: 60px 40px 0 10px;
+}
+.block_text h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.block_text p{
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+
+
+// TWITTER
+
+
+.twitter .block_ligo::after{
+    background: #8eddf7;
+    content: url(./img/twitter50_50.svg);
+}
+
+.facebook .block_ligo::after{
+    content: url(./img/facebook-logo50_50.svg);
+    background: #5885bc;
+}
+
+.linkedin .block_ligo::after{
+    content: url(./img/linkedin-logo50_50.svg);
+    background: #0084bc;
+}
+
+.instagram .block_ligo::after{
+    content: url(./img/instagram-logo50_50.svg);
+    background: #499125;
+}
+
+.youtube .block_ligo::after{
+    content: url(./img/youtube-logo50_50.svg);
+    background: #da2720;
+}
+.tumblr .block_ligo::after{
+    content: url(./img/tumblr50_50.svg);
+    background: #284861;
+}
+.dribbble .block_ligo::after{
+    content: url(./img/dribbble-logo50_50.svg);
+    background: #f07393;
+}
+
