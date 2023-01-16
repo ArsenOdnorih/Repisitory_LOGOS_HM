@@ -1,0 +1,349 @@
+/* @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+/* HEADER */
+.header{
+    width: 1440px;
+    height: 120px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lolgo{
+    width: 157px;
+    height: 30px;
+    background: url(./Images/Logo.svg);
+}
+
+.nav{
+    width: 22px;
+    height: 23px;
+    position: absolute;
+    top: 51px;
+    left: 51px;
+    cursor: pointer;
+}
+.checkbox{
+display: none;
+}
+.fake_checkbox{
+width: 33px;
+height: 35px;
+background: url(./Images/X.svg);
+}
+.checkbox:checked ~ ul{
+   display: block;
+}
+.header ul{
+    width: 344px;
+    height: 359px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    list-style: none;
+    padding: 52px 0 0 66px;
+    display: none;
+}
+.header ul li{
+margin-bottom: 13px;
+}
+.header ul li a{
+font-weight: 700;
+color: #000000;
+}
+
+/* MAIN */
+
+/* FIRST SECTION */
+.section{
+    display: flex;
+}
+.block_first{
+    width: 720px;
+    height: 570px;
+}
+.block_first_left{
+    background: #000000;
+    position: relative;;
+}
+.block_first_left .date{
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 110px;
+    left: 108px;
+}
+.block_first_left .lifestyle{
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 110px;
+    left: 535px;
+    text-decoration: underline;
+}
+
+.block_first_left h2{
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 197px;
+    left: 108px;
+    text-transform: uppercase;
+}
+.block_first_left p{
+    width: 503px;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 268px;
+    left: 108px;
+}
+
+.block_first_left .button{
+    width: 198px;
+    height: 55px;
+    position: absolute;
+    top: 364px;
+    left: 108px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+/* SECOND SECTION */
+.block_second{
+    width: 1440px;
+    height: 1273px;
+    position: relative;
+    display: flex;
+}
+.block_second .featured{
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    top: 59px;
+    left: 149px;
+    color:  #1F1F1D;;
+}
+.block_second .figure_left{
+    width: 557px;
+    height: 654px;
+    position: absolute;
+    top: 116px;
+    left: 149px;
+}
+.block_second img{
+    width: 557px;
+    height: 368px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.underimg_text{
+    width: inherit;
+    font-size: 12px;
+    position: absolute;
+    top: 394px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.underimg_text .lifestyle{
+    text-decoration-line: underline;
+}
+.block_second_big_text{
+    font-size: 24px;
+    color: #1F1F1D;
+    position: absolute;
+    top: 446px;
+    left: 0;
+}
+.block_second_small_text{
+    font-size: 18px;
+    font-weight: 300;
+    color: #1F1F1D;
+    position: absolute;
+    top: 537px;
+    left: 0;
+}
+.block_second .figure_right{
+    width: 557px;
+    height: 654px;
+    position: absolute;
+    top: 116px;
+    left: 773px;
+}
+.three_figure{
+    width: 1175px;
+    height: 334px;
+    position: absolute;
+    top: 770px;
+    left: 148px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three_figure figure{
+    position: relative;
+    width: 363px;
+
+}
+.three_figure figure img{
+    width: 363px;
+    height: 240px;
+}
+.three_figure figure .underimg_text{
+    top: 258px;;
+}
+.three_figure figure > p{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1F1F1D;
+    position: absolute;
+    top: 290px;
+}
+
+.box_bottom{
+    width: 100%;
+    height: 170px;
+}
+
+.button{
+    width: 238px;
+    height: 42px;
+    background: rgba(48, 48, 48, 1);
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+.block_second .button{
+    position: absolute;
+    top: 390px;
+    left: 452px;
+}
+/* THIRD BLOCK */
+.block_third{
+    position: relative;
+    width: 1440px;
+    height: 360px;
+}
+.block_third .box{
+    width: 1440px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+}
+.block_third .box .box_img_right{
+    width: 570px;
+    height: 360px;
+    background: #000000;
+    text-align: center;
+}
+.box_img_right p{
+    font-size: 34px;
+    color: #FFFFFF;
+    margin-top: 123px;
+}
+.subscribe{
+    width: 238px;
+    height: 42px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/* BLOCK FOURTH */
+.block_fourth{
+    width: 1440px;
+    height: 527px;
+    position: relative;
+}
+.title_sticker{
+    height: 122px;
+    padding: 64px 0 0 150px;
+}
+.title_sticker p{
+    font-size: 18px;
+    color: #1F1F1D;
+    font-weight: 700;
+}
+.block_three_sticker{
+    width: 1144px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sticker{
+    width: 363px;
+}
+.sticker img{
+    height: 240px;
+}
+.under_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 9px;
+}
+.lifestyle{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.bottom_sticker{
+    width: 363px;
+    height: 27px;
+    margin-top: 31px;
+}
+.bottom_sticker p{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sticker_button{
+    height: 113px;
+}
+.sticker_button .button{
+    margin: 38px 0 0 601px;
+}
+/* BLOCK FIFTH */
+.block_fifth{
+    width: 1440px;
+    height: 527px;
+    position: relative;
+}
+/* FOOTER */
+.footer{
+    width: 1440px;
+    height: 138px;
+    background: #000000;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.logo_buttom{
+    width: 142px;
+    height: 27px;
+    background: url(./Images/Logo_button.svg);
+}
+.footer p{
+    font-size: 12px;
+    font-weight: 300;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+}
