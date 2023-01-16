@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 14.2857142857%;
+    float: left;
+    box-sizing: border-box;
+    padding: 19.2% 0;
+    text-align: center;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 110px;
+    color: white;
+}
+
+.letter_A {
+    background: linear-gradient(to bottom, #ED213A, #94291E);
+}
+.letter_R {
+    background: linear-gradient(to bottom, #355C7D, #BD6C84);
+}
+.letter_S {
+    background: linear-gradient(to bottom, #32E7BE, #FB8437);
+}
+.letter_E {
+    background: linear-gradient(to bottom, #593F37, #2D7744);
+}
+.letter_N {
+    background: linear-gradient(to bottom, #ED4264, #FFEABB);
+}
+.letter_L {
+    background: linear-gradient(to bottom, #603813, #B19E92);
+}
