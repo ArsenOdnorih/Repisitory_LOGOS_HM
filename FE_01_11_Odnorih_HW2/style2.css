@@ -1,0 +1,14 @@
+* {
+    background-color: silver;
+}
+
+#text_3 {
+    color:  rgb(233, 15, 15);
+    background-color: rgb(10, 10, 10);
+    text-align: right;
+    font-weight: bold;
+}
+.text_2 {
+    text-align: center;
+    font-size: 60px;
+}
