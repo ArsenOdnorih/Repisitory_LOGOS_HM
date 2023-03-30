@@ -9,3 +9,5 @@
 
 const b = 12; 
 const a = 10;
+const a = 10;
+const a = 10;
