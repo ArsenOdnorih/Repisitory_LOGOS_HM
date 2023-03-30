@@ -8,3 +8,4 @@
 // }
 
 const b = 12; 
+const a = 10;
